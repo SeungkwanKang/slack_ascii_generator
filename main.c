@@ -165,11 +165,13 @@ int main(int argc, char** argv) {
         printf("Only alphabet possible !\n");
         return -1;
       }
-      // Print space
-      if (toScreen)
-        printf("-");
-      else
-        printf(argv[1]);
+      // Print space in first column
+      if (i == 0) {
+        if (toScreen)
+          printf("-");
+        else
+          printf(argv[1]);
+      }
       // Print message
       for (int x = 0; x < 5; x++) {
         int p = alpha[ch - 'A'][y][x];
