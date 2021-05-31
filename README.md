@@ -7,6 +7,10 @@ A simple program that prints to screen either...
 
 All alphabetic letters are printed in capital case
 
+## How to use
+
+Run `make` in the project root directory.
+
 ## Examples
 
 ### ASCII art
