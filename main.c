@@ -180,16 +180,16 @@ int main(int argc, char** argv) {
             printf("-");
         } else {
           if (p)
-            printf(argv[2]);
+            printf("%s", argv[2]);
           else
-            printf(argv[1]);
+            printf("%s", argv[1]);
         }
       }
       // Print space
       if (toScreen)
         printf("-");
       else
-        printf(argv[1]);
+        printf("%s", argv[1]);
     }
     printf("\n");
   }
