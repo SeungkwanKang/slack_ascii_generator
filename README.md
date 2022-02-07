@@ -1,5 +1,7 @@
 # slack_ascii_generator
 
+Moved to https://gitlab.kangsk.com/c-projects/ascii-generator !
+
 A simple program that prints to screen either...
 
 - ASCII art of the given message
